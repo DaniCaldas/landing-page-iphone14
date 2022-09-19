@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone 14</title>
+</head>
+<body>
+    <main>
+    <nav>
+        <div id="burguer" class="burguer-bar" onclick="menuBar()">
+           <div id="line1"></div>
+           <div></div>
+           <div></div>
+        </div>
+        <img style="height: 30px; width:30px;" src="img/317757_apple_macintosh_steve jobs_icon.svg" alt="">
+        
+
+        <ul id="menu-bar">
+            <li><div class="search-bar"> <img src="img/211817_search_strong_icon.svg" height="25px" alt=""><input type="text" placeholder="Faça sua Pesquisa"></div></li>
+            <li><p>Loja</p></li>
+            <li><p>Mac</p></li>
+            <li><p>Ipad</p></li>
+            <li><p>Iphone</p></li>
+            <li><p>Watch</p></li>
+            <li><p>Só na Apple</p></li>
+            <li><img class="search-icon" src="img/211817_search_strong_icon.svg" height="25px" alt=""></li>
+            <li><img src="img/shopping-cart-icon.svg"  height="22px" alt=""></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h2>iphone 14 e iphone 14 Plus</h2>
+        <h1>Maravilindo</h1>
+        <h3>A partir de R$ 7.599</h3>
+        <h3 style="color: #747479;">Confira em breve a disponibilidade</h3>
+        <a href="">assistir ao evento > </a>
+    </header>
+
+    <section>
+        <picture>
+            <source media="(max-width:670px )" srcset="img/iphones-small.jpg">
+            <source media="(max-width:813px )" srcset="img/iphones-600px.jpg">
+            <source media="(max-width:910px )" srcset="img/iphones-700px.jpg">
+            <source media="(max-width:1109px )" srcset="img/iphones-900px.jpg">
+            <img src="img/iphones.jpg" alt="">
+        </picture>
+        
+        <h1>Nossa maior duração de bateria até hoje.</h1>
+        <div class="line"></div>
+        <h1>Uma diferença visível nas fotos em pouca luz.</h1>
+        <div  class="line"></div>
+        <h1>Grande e grandão.</h1>
+    </section>
+
+    <section class="section-larguras">
+        <div>
+            <div>
+                <h3>iphone 14</h3>
+                <h1>6,1 pol</h1>
+            </div>
+
+            <div>
+               <h3>iphone 14 plus</h3>
+                <h1>6,7 pol</h1> 
+            </div>
+        </div>
+
+        <div>
+             <img src="img/iphones-larguras-2.jpg" alt=""> 
+            <img src="img/iphones-larguras.jpg" alt="">
+        </div>       
+    </section>
+
+    <section>
+        <div class="circulo" id="circle"></div> 
+                <img style="z-index: 100;" src="img/iphones-colors/azul.png" id="phone" alt="">
+
+           <h1 class="color-name" style="z-index: 100;">Azul</h1>
+        <div class="select-colors">
+            <h2>Escolha uma cor:</h2>
+            <div class="buton-colors" >
+                <span onclick="imgSlider('img/iphones-colors/azul.png'); backgroudColor('#C0CFDE'); colorsName('Azul'); nameColors('#C0CFDE')"></span>
+                <span onclick="imgSlider('img/iphones-colors/meia-noite.png'); backgroudColor('#31353A'); colorsName('Meia-noite'); nameColors('#31353A');"></span>
+                <span onclick="imgSlider('img/iphones-colors/estelar.png'); backgroudColor('#F6F2F1'); colorsName('Estelar'); nameColors('#E8E6E7');"></span>
+                <span onclick="imgSlider('img/iphones-colors/vermelho.png'); backgroudColor('#E11C2A'); colorsName('Vermelho'); nameColors('#E11C2A');"></span>
+            </div> 
+        </div>
+    </section>
+    </main>
+</body>
+</html>
