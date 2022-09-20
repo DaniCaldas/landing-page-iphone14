@@ -71,8 +71,17 @@
         </div>
 
         <div>
-             <img src="img/iphones-larguras-2.jpg" alt=""> 
-            <img src="img/iphones-larguras.jpg" alt="">
+            <picture>
+                <source media="(max-width:648px )" srcset="img/iphones-largura2-400p.jpg">
+                <img src="img/iphones-larguras-2.jpg" alt="">
+            </picture>
+            
+            <picture>
+                <source media="(max-width:648px )" srcset="img/iphones-larguras-400p.jpg">
+                <source media="(min-width: )" srcset="">
+                <img src="img/iphones-larguras.jpg" alt=""> 
+            </picture>
+              
         </div>       
     </section>
 
